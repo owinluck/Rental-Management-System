@@ -20,11 +20,13 @@ public class CustomerController {
     @PostMapping("/add-customer")
     @ResponseStatus(HttpStatus.CREATED)
     public void addCustomer(@RequestBody Customer customer){
+
         customerService.addCustomer(customer);
     }
 
     @GetMapping("/get-all")
     public List getAllCustomer(){
+
         return customerService.getAllCustomer();
     }
 
@@ -35,10 +37,12 @@ public class CustomerController {
 
     @DeleteMapping("/delete-customer/{id}")
     public void deleteCustomer(@PathVariable Long id){
+
         customerService.deleteCustomer(id);
     }
     @GetMapping("/find-by-id/{id}")
     public Customer findById(@PathVariable Long id){
+
         return customerService.findById(id);
     }
 }
