@@ -29,3 +29,5 @@ Q.idea/sonarlint/securityhotspotstore/2/1/219cbaed510a3e43b05c7e3e695529752400d3
 Q.idea/sonarlint/securityhotspotstore/7/6/76b38d15d679080ec7127a62dc4ac83e7f737204,2\b\2bcc5837963e73cf34e606918598f96aef95f9d2
 w
 G.idea/sonarlint/issuestore/7/6/76b38d15d679080ec7127a62dc4ac83e7f737204,f\3\f3d09a77c02ca23b96b44cc96a49cdfb7a66c018
+j
+:src/main/java/org/example/controller/RentalController.java,c\5\c540b239efea206f215a5e715b6202cd5e256953

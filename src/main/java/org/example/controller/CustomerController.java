@@ -33,6 +33,10 @@ public class CustomerController {
         customerService.updateCustomer(customer);
     }
 
+    @DeleteMapping("/delete-customer/{id}")
+    public void deleteCustomer(@PathVariable Long id){
+        customerService.deleteCustomer(id);
+    }
     @GetMapping("/find-by-id/{id}")
     public Customer findById(@PathVariable Long id){
         return customerService.findById(id);

@@ -50,4 +50,11 @@ public class CustomerServiceImpl implements CustomerService {
         }
         return new Customer();
     }
+
+    @Override
+    public void deleteCustomer(Long id) {
+        if(repository.existsById(id)){
+            repository.deleteById(id);
+        }
+    }
 }
