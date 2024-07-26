@@ -40,6 +40,7 @@ public class RentalServiceImpl implements RentalService {
 
     @Override
     public void updateRent(Rent rent) {
+
         repository.save(new ObjectMapper().convertValue(rent, RentEntity.class));
     }
 
